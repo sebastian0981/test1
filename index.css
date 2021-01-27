@@ -5,11 +5,15 @@ body {
 }
 
 .container {
-    vertical-align: middle;
-    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: rgba(35, 110, 196, 0.63);
+    border-radius: 10px;
     width: 50%;
-    margin: auto;
+    height: 20%;
+    margin-left: 39%;
+    margin-top: 17%;
     padding: 10px;
+    box-shadow: 4px;
 }
 
 #submit {
@@ -24,15 +28,72 @@ body {
     padding: 1px;
     margin-bottom: 2px;
     width: 175px;
+    border-radius: 5px;
 }
 
 #pass {
     margin-left: 120px;
     margin-bottom: 7px;
     width: 173px;
+    border-radius: 5px;
 }
 
-h2 {
+p {
     text-align: center;
-    color: white;
+    font-size: 30px;
+    margin: 20px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+p:nth-child(1) a {
+    color: #c53232;
+    font-family: Comic Sans MS;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+p:nth-child(1) a:hover {
+    color: #c53232;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+}
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #c53232, 0 0 20px #c53232, 0 0 30px #c53232, 0 0 40px #0a228b, 0 0 70px #0a228b, 0 0 80px #0a228b, 0 0 100px #0a228b, 0 0 150px #0a228b;
+    }
+    to {
+        text-shadow: 0 0 5px #c53232, 0 0 10px #c53232, 0 0 15px #c53232, 0 0 20px #0a228b, 0 0 35px #0a228b, 0 0 40px #0a228b, 0 0 50px #0a228b, 0 0 75px #0a228b;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 20%;
+        background-color: rgba(35, 110, 196, 0.63);
+        border-radius: 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+    #user {
+        margin-left: 100px;
+        text-align: center;
+    }
+    #pass {
+        margin-left: 100px;
+        text-align: center;
+    }
+    #submit {
+        margin-left: 130px;
+        background-color: rgb(35, 110, 196);
+    }
 }
