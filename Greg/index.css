@@ -1,0 +1,98 @@
+body {
+    background-color: #222222;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}
+
+#red {
+    background-color: red;
+    position: relative;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#tree {
+    background-image: url("image/tree.jpg");
+    background-size: 700px;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 700px;
+    margin-left: 14%;
+    margin-top: 3%;
+    height: 850px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#right {
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    width: 700px;
+    background-color: rgb(240, 240, 240);
+    margin-left: 50%;
+    margin-top: 3%;
+    height: 850px;
+    border-left: 2px solid;
+    border-color: #000;
+}
+
+form input[id="user"] {
+    margin-bottom: 10px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 32%;
+    text-align: center;
+}
+
+form input[id="pass"] {
+    margin-bottom: 10px;
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 32%;
+    text-align: center;
+}
+
+form input[id="button"] {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 2%;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: #ec9e37;
+    margin-left: 44%;
+}
+
+form input[id="button"]:hover {
+    background-color: #b6792a;
+}
+
+#fox {
+    margin-left: 37%;
+    width: 30%;
+    margin-top: 28%;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (min-width:1880px) {
+    #tree {
+        background-image: "#";
+    }
+}
+
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
