@@ -1,2 +1,1 @@
-var test = document.getElementById("submit");
-test.onclick = function() { console.log("seba puto") }
+function x() { console.log("seba puto") }

@@ -1,0 +1,38 @@
+body {
+    background-image: url("Image/background.jpg");
+    background-size: 1920px, 1200px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+#submit {
+    background-color: gray;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 150px;
+}
+
+#user {
+    margin-left: 120px;
+    padding: 1px;
+    margin-bottom: 2px;
+    width: 175px;
+}
+
+#pass {
+    margin-left: 120px;
+    margin-bottom: 7px;
+    width: 173px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
