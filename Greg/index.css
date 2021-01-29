@@ -3,13 +3,6 @@ body {
     background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 
-#red {
-    background-color: red;
-    position: relative;
-    border: 0px;
-    border-radius: 10px;
-}
-
 #tree {
     background-image: url("image/tree.jpg");
     background-size: 700px;
@@ -19,8 +12,7 @@ body {
     margin-left: 14%;
     margin-top: 3%;
     height: 850px;
-    border-radius: 10px;
-    border: 0;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #right {
@@ -31,8 +23,7 @@ body {
     margin-left: 50%;
     margin-top: 3%;
     height: 850px;
-    border-left: 2px solid;
-    border-color: #000;
+    ;
 }
 
 form input[id="user"] {
